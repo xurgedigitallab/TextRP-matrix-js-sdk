@@ -30,7 +30,7 @@
         "url": "https://github.com/Spirinova-Technologies/TextRP-matrix-js-sdk.git"
     },
     "publishConfig": {
-     "registry": "https://npm.pkg.github.com"
+     "registry": "https://npm.pkg.github.com/Spirinova-Technologies"
     },
     "keywords": [
         "matrix-org"
