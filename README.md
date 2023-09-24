@@ -1,3 +1,40 @@
+### README.md for [TextRP-matrix-js-sdk](https://github.com/xurgedigitallab/TextRP-matrix-js-sdk)
+
+#### Overview
+This repository contains the SDK for the TextRP Matrix, a project by Xurge Digital Lab. The SDK is written primarily in TypeScript and is structured to facilitate interaction with the Matrix client, providing various functionalities and features.
+
+#### Technical Details
+The repository is structured into multiple directories, each serving a specific purpose and functionality within the SDK. Below are the details of the directories and their respective files:
+
+##### 1. [src/http-api](https://github.com/xurgedigitallab/TextRP-matrix-js-sdk/tree/main/src/http-api)
+- `errors.ts`: Handles errors within the HTTP API.
+- `fetch.ts`: Manages fetch requests within the HTTP API.
+- `index.ts`: Serves as the entry point for the HTTP API directory.
+- `interface.ts`: Defines interfaces for the HTTP API.
+- `method.ts`: Contains methods related to HTTP API requests.
+- `prefix.ts`: Manages prefixes for the HTTP API.
+- `utils.ts`: Provides utility functions for the HTTP API.
+
+##### 2. [src/webrtc](https://github.com/xurgedigitallab/TextRP-matrix-js-sdk/tree/main/src/webrtc)
+- `call.ts`: Manages call functionalities within WebRTC.
+- `callEventHandler.ts`: Handles call events within WebRTC.
+- `callEventTypes.ts`: Defines call event types within WebRTC.
+- `callFeed.ts`: Manages call feed within WebRTC.
+- `groupCall.ts`: Manages group call functionalities within WebRTC.
+- `groupCallEventHandler.ts`: Handles group call events within WebRTC.
+- `mediaHandler.ts`: Manages media handling within WebRTC.
+
+#### Languages Used
+- TypeScript
+- JavaScript
+
+#### Special Notes
+- No direct references or modifications related to XRPL or Xumm were found in the explored files.
+- The repository is extensive, and this document may not cover all technical aspects and details. For a more in-depth exploration, please refer to the repository directly.
+
+#### Note
+This README.md provides a high-level overview and technical details of the TextRP-matrix-js-sdk repository. For further details and exploration, please refer to the [repository](https://github.com/xurgedigitallab/TextRP-matrix-js-sdk).
+
 [![npm](https://img.shields.io/npm/v/matrix-js-sdk)](https://www.npmjs.com/package/matrix-js-sdk)
 ![Tests](https://github.com/matrix-org/matrix-js-sdk/actions/workflows/tests.yml/badge.svg)
 ![Static Analysis](https://github.com/matrix-org/matrix-js-sdk/actions/workflows/static_analysis.yml/badge.svg)
